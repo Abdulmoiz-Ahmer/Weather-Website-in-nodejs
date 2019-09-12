@@ -8,6 +8,7 @@ const publicDirPath = path.join(__dirname, "../public");
 const viewDirPath = path.join(__dirname, "../views");
 const partialDirPath = path.join(__dirname, "../partials");
 const app = express();
+const port = process.env.PORT || 3000;
 
 app.set("views", viewDirPath);
 app.set("view engine", ".hbs");
@@ -18,21 +19,21 @@ app.use(express.static(publicDirPath));
 app.get("", (req, res) => {
   res.render("index", {
     title: "Weather",
-    name: "Ali"
+    name: "Abdulmoiz"
   });
 });
 
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About",
-    name: "Ali"
+    name: "Abdulmoiz"
   });
 });
 
 app.get("/help", (req, res) => {
   res.render("help", {
     title: "help those who need help...",
-    name: "Ali"
+    name: "Abdulmoiz"
   });
 });
 
@@ -82,6 +83,6 @@ app.get("*", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("server is running");
 });
