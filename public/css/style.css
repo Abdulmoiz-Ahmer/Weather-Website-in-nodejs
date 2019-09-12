@@ -1,3 +1,45 @@
+
+@media (min-width: 1281px) {
+  
+  body{
+    background-image: url(../img/bg.jpg);
+  }
+  
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  body{
+    background-image: url(../img/bg.jpg);
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  body{
+    background-image: url(../img/bg1024.jpg);
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ body{
+  background-image: url(../img/bg767.jpg);
+ }
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ body{
+   background-image: url(../img/bg480.jpg);
+ }
+  
+}
+
+
 body {
   color: #ececec;
   font-family: "Lato", sans-serif;
@@ -8,7 +50,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url(../img/bg.jpg);
+
   background-position: contain;
   background-size: 100% 100%;
   background-repeat:no-repeat; 
