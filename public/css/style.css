@@ -41,3 +41,33 @@ header a {
 .main-content {
   flex-grow: 1;
 }
+
+input{
+  font-size: 16px;
+  margin: 4px 2px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:10px;  
+}
+
+.button {
+  background-color: #4CAF50;;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
