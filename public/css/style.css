@@ -97,6 +97,7 @@ input {
   padding-bottom: 9px;
   padding-left: 9px;
   margin: 4px 2px;
+  border-radius: 5px;
 }
 
 .button {
