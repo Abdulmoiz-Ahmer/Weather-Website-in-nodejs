@@ -11,7 +11,10 @@ body {
   background-image: url(../img/bg.jpg);
   background-position: center;
   background-size: 100%;
+  background-repeat:no-repeat; 
+ 
 }
+
 
 footer {
   color: #dbdbdb;
