@@ -1,44 +1,32 @@
-
 @media (min-width: 1281px) {
-  
-  body{
+  body {
     background-image: url(../img/bg.jpg);
   }
-  
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  body{
+  body {
     background-image: url(../img/bg.jpg);
   }
-  
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-  body{
+  body {
     background-image: url(../img/bg1024.jpg);
   }
-  
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
- body{
-  background-image: url(../img/bg767.jpg);
- }
-  
+  body {
+    background-image: url(../img/bg767.jpg);
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
- body{
-   background-image: url(../img/bg480.jpg);
- }
-  
+  body {
+    background-image: url(../img/bg480.jpg);
+  }
 }
-
 
 body {
   color: #ececec;
@@ -50,13 +38,11 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
-  background-position: contain;
-  background-size: 100% 100%;
-  background-repeat:no-repeat; 
- 
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 
 footer {
   color: #dbdbdb;
@@ -122,6 +108,7 @@ input {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
 p {
   font-size: 300;
   line-height: 30px;
